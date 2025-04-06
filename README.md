@@ -28,7 +28,7 @@ This project analyzes Walmart retail sales data using Python, pandas, and MySQL.
 
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/ramsharan47/walmart_analysis.git
    ```
 
 2. Install required Python packages:
