@@ -1,4 +1,5 @@
 # Walmart Sales Analysis
+Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Walmart_logo.svg/1280px-Walmart_logo.svg.png)
 
 A Python-based analysis of Walmart retail sales data (2001-2015) with data cleaning, MySQL integration, and visualization.
 
