@@ -8,6 +8,29 @@ A Python-based analysis of Walmart retail sales data (2001-2015) with data clean
 
 This project analyzes Walmart retail sales data using Python, pandas, and MySQL. It includes data cleaning, database operations, advanced SQL queries with window functions, and visualizations to extract meaningful business insights from retail sales patterns.
 
+
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+ - [Prerequisites](#prerequisites)
+ - [Installation](#installation)
+- [Usage](#usage)
+ - [Data Cleaning](#data-cleaning)
+ - [Database Operations](#database-operations)
+ - [Data Analysis](#data-analysis)
+- [Key Insights](#key-insights)
+- [Deployment](#deployment)
+- [Future Enhancements](#future-enhancements)
+- [Author](#author)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
+
 ## Features
 
 - **Data Cleaning**: Processes raw Excel data, handles special characters, and formats dates
@@ -124,12 +147,30 @@ engine = create_engine('mysql+pymysql://username:password@localhost/walmart')
 python walmart_analysis.py
 ```
 
+## Deployment
+
+This project is designed for flexible deployment but still not deployed but can done by using GitHub CI/CD pipeline, flask/django framework, fastapi and aws server or heruko:
+
 ## Results
 
 The analysis reveals:
 - Year-over-year sales growth patterns by state
 - Regional profitability differences
 - Top-performing product subcategories across different regions
+### Server Deployment
+
+For server deployment:
+1. Set up a server with Python and MySQL
+2. Configure database connection parameters in the scripts
+3. Schedule regular runs using cron or similar tools
+
+### Dashboard Integration
+
+The visualization components can be integrated with web frameworks:
+1. Use Flask or Django to create a web interface
+2. Embed visualizations in HTML templates
+3. Deploy to a web server for team access
+
 
 ## Author
 
